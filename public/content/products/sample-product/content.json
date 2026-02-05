@@ -1,0 +1,225 @@
+{
+  "product": {
+    "id": "sample-product",
+    "name": "NAVSUNLI™",
+    "version": "v0.0.1",
+    "lang": "en",
+    "overview": "This interactive leaflet helps you learn key information about Sample Medicine: indications, dosage, warnings and more."
+  },
+  "theme": {
+    "primary": "#0055aa",
+    "accent": "#ffc300"
+  },
+  "overviewBlackBoxHtml": "<p>To report SUSPECTED ADVERSE REACTIONS, contact REGENXBIO Inc. at <toll-free phone#> or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</p><p>See <a href='#patient-counseling-information' class='internal-link'>15</a>for PATIENT COUNSELING INFORMATION</p><p>Revised: MM/2026</p>",
+  "overviewSections": [
+    {
+      "title": "Highlights of Prescribing Information",
+      "content": "<p class='lead'>These highlights do not include all the information needed to use NAVSUNLI™ safely and effectively. See full prescribing information for NAVSUNLI.</p> <p>NAVSUNLI (clemidsogene lanparvovec-xxxx) infusion, for intracisternal or intraventricular use.</p> <p>Initial U.S. Approval: YYYY</p>"
+    },
+    {
+      "title": "Indications and Usage",
+      "bullets": [
+        { "text": "NAVSUNLI is an adeno-associated virus (AAV) vector-based gene therapy indicated for the treatment of patients with mucopolysaccharidosis type II (MPS II; Hunter syndrome).", "refs": ["indications"] },
+        { "text": "This indication is approved under accelerated approval based on 4-month reductions in cerebrospinal fluid (CSF) D2S6 biomarker (1, 12.2). Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial(s).", "refs": ["indications", "pharmacodynamics"] }
+      ]
+    },
+    {
+      "title": "Dosage and Administration",
+      "bullets": [
+        { "text": "The recommended dosage is a single infusion of 2.9×10<sup>11</sup> genome copies per gram (GC/g) brain mass.", "refs": ["dose"] },
+        { "text": "Aseptic technique must be used during preparation and administration.", "refs": ["patient-preparation"] },
+        { "text": "Pretreatment of patients with immunosuppressants must be initiated two days prior to the infusion.", "refs": ["dose"] },
+        { "text": "NAVSUNLI must be administered by a physician trained in intracistemal (IC) or intraventricular (IVR) administration.", "refs": ["dose"] },
+        { "text": "Vials of NAVSUNLI should be stored at or below -60 °C.", "refs": ["how-supplied-storage-handling"] },
+        { "text": "For complete information on dosage, preparation, and administration, see the full prescribing information.", "refs": ["dose","patient-preparation","drug-preparation"] }
+      ]
+    },
+    {
+      "title": "Dosage Forms and Strengths",
+      "bullets": [
+        { "text": "NAVSUNLI is a clear to opalescent, colorless suspension for IC or IVR infusion at a concentration of 4.7×10<sup>13</sup> genome copies/mL (GC/mL)."},
+        { "text": "NAVSUNLI is provided in a kit containing 4 to 9 single-dose vials (with an extractable volume of not less than 1.0 mL ). All vials have a concentration of 4.7×10<sup>13</sup> GC/mL. A single dose of NAVSUNLI contains 2.9×10<sup>11</sup> GC/g brain mass." }
+      ]
+    },
+    {
+      "title": "Contraindications",
+      "bullets": [
+        { "text": "NAVSUNLI is contraindicated in patients with immunodeficiency or hypersensitivity reaction to immunosuppressive therapy (prednisone, tacrolimus, sirolimus ).", "refs": ["contraindications"] },
+        { "text": "NAVSUNLI is contraindicated in patients with CNS anatomy not conducive to either IC or IVR administration as determined by brain MRI.", "refs": ["contraindications"] }
+      ]
+    },
+    {
+      "title": "Warnings and Precautions",
+      "bullets": [
+        { "text": "Elevated transaminases: Asymptomatic elevation of serum transaminases without any other liver function abnormality have been seen in clinical studies with NAVSUNLI. Adherence to the prescribed immunosuppressive regimen is intended to mitigate this risk. Monitor liver function before NAVSUNLI infusion, every other week for the first month, monthly up to 3 months after NAVSUNLI infusion, and beyond as clinically indicated.", "refs": ["asymptomatic-transaminases"] },
+        { "text": "Cerebrospinal fluid (CSF) pleocytosis and elevated CSF protein: Asymptomatic CSF pleocytosis and elevated CSF protein were observed in multiple study patients but was not associated with any clinical symptoms. Providers should assess for clinical symptoms associated with changes in laboratory values and treat as indicated.", "refs": ["csf-pleocytosis-protein"] },
+        { "text": "Administrative risks: Administering anesthesia for MPS II patients undergoing gene therapy presents risks due to their underlying airway, respiratory, cardiovascular, and metabolic abnormalities requiring careful preoperative planning with a multidisciplinary team and intraoperative management to ensure patient safety." },
+        { "text": "Intracisternal and intraventricular infusion both include risk related to the administrative procedure that may result in harm requiring medical intervention and permanent impairment. Either procedure must be performed by experienced personnel using aseptic technique to minimize risk.", "refs": ["vp-va-shunt-closure"] },
+        { "text": "Ventriculoperitoneal (VP) / Ventriculoarterial (VA) shunt closure in patients with pre-existing shunts: VP/VA shunts are temporarily closed for the administration of NAVSUNLI via IC or IVR. Shunt closure may lead to transient effects of elevated intracranial pressure. An assessment of the benefit-risk of this procedure should be made by providers prior to administration for each patient.", "refs": ["vp-va-shunt-closure"] }
+      ]
+    },
+    {
+      "title": "Adverse Reactions",
+      "bullets": [
+        { "text": "Most common adverse reactions across studies (reported in 2 or more patients) were transaminitis, CSF pressure increased, CSF protein increased, CSF WBC count increased, and white matter lesion.", "refs": ["adverse-reactions"] }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "indications",
+      "title": "Indications and Usage",
+      "bodyMd": "",
+      "bodyUrl": "/content/products/sample-product/blocks/indications.html",
+      "bodyFormat": "html"
+    },
+    {
+      "id": "dosage",
+      "title": "Dosage and Administration",
+      "bodyMd": "",
+      "bodyUrl": "/content/products/sample-product/blocks/dosage-and-administration.html",
+      "bodyFormat": "html",
+      "subsections": [
+        { "id": "dose", "title": "Dose", "bodyMd": "", "bodyUrl": "/content/products/sample-product/blocks/dose.html", "bodyFormat": "html"  },
+        {
+          "id": "patient-preparation",
+          "title": "Patient Preparation",
+          "bodyMd": "",
+          "bodyUrl": "/content/products/sample-product/blocks/patient-preparation.html",
+          "bodyFormat": "html"
+        },
+        { "id": "drug-preparation", "title": "Drug Preparation", "bodyMd": "", "bodyUrl": "/content/products/sample-product/blocks/drug-preparation.html", "bodyFormat": "html" },
+        { "id": "administration", "title": "Administration", "bodyMd": "", "bodyUrl": "/content/products/sample-product/blocks/administration.html", "bodyFormat": "html" }
+      ]
+    },
+    {
+      "id": "dosage-forms-strengths",
+      "title": "Dosage Forms and Strengths",
+      "bodyMd": ""
+    },
+    {
+      "id": "contraindications",
+      "title": "Contraindications",
+      "bodyMd": ""
+    },
+    {
+      "id": "warnings-precautions",
+      "title": "Warnings and Precautions",
+      "bodyMd": "",
+      "subsections": [
+        { "id": "asymptomatic-transaminases", "title": "Asymptomatic Elevation of Serum Transaminases Without Any Other Liver Function Abnormality", "bodyMd": "" },
+        { "id": "csf-pleocytosis-protein", "title": "Asymptomatic Cerebrospinal Fluid (CSF) Pleocytosis and Elevated CSF Protein", "bodyMd": "" },
+        { "id": "administrative-risks", "title": "Administrative Risks", "bodyMd": "" },
+        { "id": "vp-va-shunt-closure", "title": "Ventriculoperitoneal (VP) / Ventriculoarterial (VA) Shunt Closure in Patients With Pre-Existing Shunts", "bodyMd": "" }
+      ]
+    },
+    {
+      "id": "adverse-reactions",
+      "title": "Adverse Reactions",
+      "bodyMd": "",
+      "subsections": [
+        { "id": "clinical-trials-experience", "title": "Clinical Trials Experience", "bodyMd": "" }
+      ]
+    },
+    {
+      "id": "drug-interactions",
+      "title": "Drug Interactions",
+      "bodyMd": ""
+    },
+    {
+      "id": "use-in-specific-populations",
+      "title": "Use in Specific Populations",
+      "bodyMd": "",
+      "subsections": [
+        { "id": "pregnancy", "title": "Pregnancy", "bodyMd": "" },
+        { "id": "lactation", "title": "Lactation", "bodyMd": "" },
+        { "id": "pediatric-use", "title": "Pediatric Use", "bodyMd": "" },
+        { "id": "geriatric-use", "title": "Geriatric Use", "bodyMd": "" },
+        { "id": "hepatic-impairment", "title": "Hepatic Impairment", "bodyMd": "" }
+      ]
+    },
+    {
+      "id": "description",
+      "title": "Description",
+      "bodyMd": ""
+    },
+    {
+      "id": "clinical-pharmacology",
+      "title": "Clinical Pharmacology",
+      "bodyMd": "",
+      "subsections": [
+        { "id": "mechanism-of-action", "title": "Mechanism of Action", "bodyMd": "" },
+        { "id": "pharmacodynamics", "title": "Pharmacodynamics", "bodyMd": "", "bodyUrl": "/content/products/sample-product/blocks/pharmacodynamics.html", "bodyFormat": "html" },
+        { "id": "pharmacokinetics", "title": "Pharmacokinetics", "bodyMd": "" },
+        { "id": "immunogenicity", "title": "Immunogenicity", "bodyMd": "" }
+      ]
+    },
+    {
+      "id": "nonclinical-toxicology",
+      "title": "Nonclinical Toxicology",
+      "bodyMd": "",
+      "subsections": [
+        { "id": "carcinogenesis-mutagenesis-fertility", "title": "Carcinogenesis, Mutagenesis, Impairment of Fertility", "bodyMd": "" },
+        { "id": "animal-toxicology-pharmacology", "title": "Animal Toxicology and/or Pharmacology", "bodyMd": "" }
+      ]
+    },
+    {
+      "id": "clinical-studies",
+      "title": "Clinical Studies",
+      "bodyMd": ""
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "bodyMd": ""
+    },
+    {
+      "id": "how-supplied-storage-handling",
+      "title": "How Supplied, Storage and Handling",
+      "bodyMd": ""
+    },
+    {
+      "id": "patient-counseling-information",
+      "title": "Patient Counseling Information",
+      "bodyMd": ""
+    }
+  ],
+  "glossary": [
+    { "term": "Hypertension", "definition": "Persistently high blood pressure." },
+    { "term": "Contraindication", "definition": "A specific situation where a drug should not be used." }
+  ],
+  "quiz": {
+    "passPct": 80,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "single",
+        "prompt": "Sample Medicine is indicated for…",
+        "choices": ["Hypertension", "Migraine"],
+        "answer": [0],
+        "explanation": "Per Indications section."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "prompt": "Typical adult starting dose?",
+        "choices": ["2.5 mg daily", "5 mg daily", "20 mg daily"],
+        "answer": [1],
+        "explanation": "See Dosage & Administration."
+      },
+      {
+        "id": "q3",
+        "type": "multiple",
+        "prompt": "Common adverse reactions include…",
+        "choices": ["Edema", "Flushing", "Alopecia"],
+        "answer": [0, 1],
+        "explanation": "See Adverse Reactions."
+      }
+    ]
+  },
+  "submission": {
+    "channel": "postMessage",
+    "targetOrigin": "*"
+  }
+}
+
